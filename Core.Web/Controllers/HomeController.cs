@@ -34,9 +34,15 @@ namespace Core.Web.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+
 	public string getInint()
 	{
 		return "zhongqing test git ";
+	}
+
+	public void Test()
+	{
+		Console.WriteLine("Ok");
 	}
     }
 }
