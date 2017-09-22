@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -40,5 +41,12 @@ namespace CoreApi.Controllers
         public void Delete(int id)
         {
         }
+
+	//Get api/values
+	[HttpGet("{id}")]
+	public int Get(int id)
+	{
+		return id + 100;
+	}
     }
 }
