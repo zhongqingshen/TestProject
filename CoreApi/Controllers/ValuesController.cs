@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -53,5 +52,11 @@ namespace CoreApi.Controllers
 	{
 		Console.WriteLine("Ok");
 	}
+
+	public void test3()
+	{
+		Console.WriteLine("Test3");
+	}
+
     }
 }
