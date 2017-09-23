@@ -48,5 +48,10 @@ namespace CoreApi.Controllers
 	{
 		return id + 100;
 	}
+
+	public void Test()
+	{
+		Console.WriteLine("Ok");
+	}
     }
 }
