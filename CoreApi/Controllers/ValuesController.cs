@@ -53,5 +53,11 @@ namespace CoreApi.Controllers
 	{
 		Console.WriteLine("Ok");
 	}
+	
+	public void test1()
+	{
+		Console.WriteLine("OK");
+	}
+
     }
 }
